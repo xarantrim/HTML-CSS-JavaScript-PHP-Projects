@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "Lato", sans-serif;
+	  background-image: url('../images/arxikh_selida/burger.jpg');
+	  background-position: center;
+  	background-size:  100% 100%;
+  	background-repeat: no-repeat;
+    height:100%;
+}
+
+/* NAVBAR */
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 49px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid rgb(38, 48, 197);
+}
+
+.active {
+  border-top: 3px solid red;
+}
+
+/* CART*/
+
+.cart
+{
+  color: #46c44c;
+}
+
+
+
+/* TABLE*/
+
+.table, th, td{
+  border: 2px solid black;
+  text-align: center;
+ /* margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin: 0 auto;
+  margin: 0px auto;
+  margin-top: 13%;
+  align-self: center;*/
+
+}
+
+.first{
+  height: 100px
+}
+
+.second{
+  
+  height: 50px
+}
+
+/* SHOPPING PAGE */
+
+.SHOPPING{
+  background-color: black;
+}
